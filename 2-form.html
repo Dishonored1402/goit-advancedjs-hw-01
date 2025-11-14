@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Feedback form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script type="module" crossorigin src="/goit-advancedjs-hw-01/2-form.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-advancedjs-hw-01/assets/modulepreload-polyfill-B5Qt9EMX.js">
+    <link rel="stylesheet" crossorigin href="/goit-advancedjs-hw-01/assets/styles-DoDnKGme.css">
+  </head>
+  <body>
+    <main class="page">
+      <section class="section section--form">
+        <p class="section-label">form</p>
+
+        <form class="feedback-form" autocomplete="off">
+          <label class="feedback-label">
+            <span class="feedback-label-text">Email</span>
+            <input
+              class="feedback-input"
+              type="email"
+              name="email"
+              autofocus
+            />
+          </label>
+
+          <label class="feedback-label">
+            <span class="feedback-label-text">Message</span>
+            <textarea
+              class="feedback-textarea"
+              name="message"
+              rows="8"
+            ></textarea>
+          </label>
+
+          <button class="feedback-button" type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+
+  </body>
+</html>
