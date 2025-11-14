@@ -1,5 +1,5 @@
-import SimpleLightbox from 'simplelightbox';
-import 'simplelightbox/dist/simple-lightbox.min.css';
+//import SimpleLightbox from 'simplelightbox';
+//import 'simplelightbox/dist/simple-lightbox.min.css';
 
 const galleryList = document.querySelector('.gallery');
 
@@ -72,13 +72,12 @@ if (!galleryList) {
 
   galleryList.innerHTML = markup;
 
-  const lightbox = new SimpleLightbox('.gallery a', {
-    captions: true,
-    captionsData: 'alt',
-    captionPosition: 'bottom',
-    captionDelay: 250,
-  });
+ // const lightbox = new SimpleLightbox('.gallery a', {
+ //   captions: true,
+ //   captionsData: 'alt',
+ //   captionPosition: 'bottom',
+ //   captionDelay: 250,
+ // });
 
-
-  console.log('Gallery initialized:', lightbox);
+  console.log('Gallery initialized');
 }
